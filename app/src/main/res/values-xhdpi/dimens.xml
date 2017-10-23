@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_height">44dp</dimen>
+    <dimen name="movie_item_height">147dp</dimen>
+    <dimen name="tx_movie_item_height">167dp</dimen>
+       <dimen name="movie_item_weith">108dp</dimen>
+       <dimen name="movi_zhuanti_height">76dp</dimen>
+        <dimen name="movi_zhuanti_weight">136dp</dimen>
+        <dimen name="movie_search_width">250dp</dimen>
+        
+        
+         <dimen name="yijian_width">280dp</dimen>
+        
+        
+    	<dimen name="music_bangdan_item">100dp</dimen>
+    	<dimen name="music_bang_juli">50dp</dimen>
+    	
+    	
+    	<dimen  name="apply_bangdan_weight">80dp</dimen>
+    	<dimen  name="apply_bangdan_height">70dp</dimen>
+    	<dimen name="apply_youxi_wight">65dp</dimen>
+    	
+     <dimen name="user_beijing">250dp</dimen>
+    	
+    	<dimen name="game_right">60dp</dimen>
+    	    	<dimen name="game_top">45dp</dimen>
+    	
+    	<dimen name="fangxiangtop">30dp</dimen>
+    	
+    	
+    	<dimen name="yaokongheight">306dp</dimen>
+    	<dimen name="chumobanheight">333dp</dimen>
+    	<dimen name="fangxiangtopone">20dp</dimen>
+    	
+    	<dimen name="yingliangtop">2dp</dimen>
+    	
+             <dimen name="gm_indctor">90dp</dimen>
+             
+              <dimen name="guanggaowei">158dp</dimen>
+              
+                <dimen name="tupian_height">80dp</dimen>
+                <dimen name="tupian_width">110dp</dimen>
+                <dimen name="tv_size">17sp</dimen>
+                
+              
+              <dimen name="apply_item">65dp</dimen>
+
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="divider_height">0.3dp</dimen>
+    <dimen name="btn_height">42dp</dimen>
+    <dimen name="edit_height">41dp</dimen>
+    <dimen name="text_width">60dp</dimen>
+    <dimen name="item_height">52dp</dimen>
+    <dimen name="item_margin">16dp</dimen>
+    <dimen name="edittext_padding">10dp</dimen>
+    <dimen name="checkbox_margin">16dp</dimen>
+    <dimen name="dialog_height">16dp</dimen>
+    <dimen name="dialog_width">274dp</dimen>
+    <dimen name="dialog_content_height">160dp</dimen>
+    <dimen name="dialog_content_padding">10dp</dimen>
+    <dimen name="dialog_title_height">62dp</dimen>
+
+    <!--TextSize-->
+    <dimen name="text_size12">12sp</dimen>
+    <dimen name="text_size13">13sp</dimen>
+    <dimen name="text_size14">14sp</dimen>
+    <dimen name="text_size16">16sp</dimen>
+    <dimen name="text_size20">20sp</dimen>
+    <dimen name="text_size34">34sp</dimen>
+    <dimen name="text_size40">40sp</dimen>
+    <dimen name="text_size70">70sp</dimen>
+
+</resources>

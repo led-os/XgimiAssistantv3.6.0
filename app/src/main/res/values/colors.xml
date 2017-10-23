@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_blue_light">#292933</color>
+    <color name="main_blue_dark">#3f3f48</color>
+    <color name="search_tv_color">#9c9ca0 </color>
+    <color name="main_white">#FFFFFF</color>
+    <color name="main_black">#000000</color>
+    <color name="main_black_grey">#6D6D6D</color>
+
+    <color name="color_bule">#4392F3</color>
+    <color name="text_color_bule">#333333</color>
+
+    <color name="D9D9D9">#D9D9D9</color>
+    <color name="zitiyanse">#8b8b8f</color>
+    <color name="color_bule2">#40B3F0</color>
+    <color name="color_bule3">#99ddff</color>
+    <color name="transparent">#00000000</color>
+    <color name="one">#ffcc00</color>
+    <color name="danheise">#6A000000</color>
+    <color name="titlespace">#eeb2b2b2</color>
+    <color name="qianheise">#2A000000</color>
+    <color name="layout_bk">#eef5f5f6</color>
+    <color name="viewpager_color_bg">#ffE1E2E3</color>
+    <color name="divider_color">#ffd5d5d5</color>
+    <color name="jiangese">#f0f0f0</color>
+    <color name="EBEBEB">#ebebeb</color>
+    <color name="ADADAD">#ADADAD</color>
+    <color name="F7F7F7">#F7F7F7</color>
+    <color name="small_title">#ff323334</color>
+    <color name="item_title">#333333</color>
+
+    <color name="xiaobiaoti">#B4B5B6</color>
+    <color name="beijingse">#fafafa</color>
+
+    <color name="welcomebutton">#4E98F2</color>
+    <color name="welcometext">#4c4c4c</color>
+    <color name="F9F9F9">#F9F9F9</color>
+    <color name="shanchujilu">#4392f3</color>
+    <color name="fenge">#F5F5F5</color>
+    <color name="time">#848484</color>
+    <color name="xiantiao">#E0E0E1</color>
+    <color name="fengexian">#DEDEDE</color>
+    <color name="fengexianone">#E2E2E2</color>
+    <color name="live_item">#6B6B6B</color>
+    <color name="title_background">#282A32</color>
+    <color name="baise">#ffffff</color>
+    <color name="list">#0f000000</color>
+    <color name="lvse">#04c878</color>
+    <color name="white">#FFFFFF</color>
+    <color name="huise">#848484</color>
+    <color name="moren">#33000000</color>
+    <color name="blue">#007aff</color>
+    <color name="B3B3B3">#B3B3B3</color>
+    <color name="D4D4D">#4D4D4D</color>
+    <color name="filetime">#949494</color>
+    <color name="C7C7C7">#C7C7C7</color>
+    <color name="BFBFBF">#BFBFBF</color>
+    <color name="sevice_num">#666666</color>
+    <color name="scan_tishi">#5E5E5E</color>
+
+
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+</resources>

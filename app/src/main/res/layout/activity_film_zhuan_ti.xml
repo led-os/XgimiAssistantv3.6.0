@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.xgimi.zhushou.activity.FilmZhuanTiActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/id_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        >
+        <include
+            layout="@layout/xgimi_title"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/title"></include>
+    </android.support.v7.widget.Toolbar>
+    <GridView
+        android:layout_below="@+id/id_toolbar"
+        android:background="#ffffff"
+        android:horizontalSpacing="5dp"
+        android:layout_marginLeft="5dp"
+
+        android:scrollbars="none"
+        android:id="@+id/gridview"
+        android:listSelector="@drawable/listview_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3"
+        ></GridView>
+</RelativeLayout>

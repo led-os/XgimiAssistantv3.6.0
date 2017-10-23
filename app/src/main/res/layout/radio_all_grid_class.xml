@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:scaleType="fitXY" />
+        <TextView
+            android:id="@+id/text1"
+            android:singleLine="true"
+            android:layout_below="@+id/image1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="热门电台"
+            android:layout_marginTop="5dp"/>
+    </RelativeLayout>
+    <!--<RelativeLayout-->
+    <!--android:layout_weight="1"-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="5dp"-->
+    <!--android:layout_marginTop="5dp">-->
+    <!--<ImageView-->
+    <!--android:id="@+id/image2"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="120dp"-->
+    <!--android:scaleType="fitXY"-->
+    <!--android:background="@drawable/apphome"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/text2"-->
+    <!--android:singleLine="true"-->
+    <!--android:layout_below="@+id/image2"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="热门电台"-->
+    <!--android:layout_marginTop="5dp"/>-->
+    <!--</RelativeLayout>-->
+    <!--<RelativeLayout-->
+    <!--android:layout_weight="1"-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="5dp"-->
+    <!--android:layout_marginTop="5dp">-->
+    <!--<ImageView-->
+    <!--android:id="@+id/image3"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="120dp"-->
+    <!--android:scaleType="fitXY"-->
+    <!--android:background="@drawable/apphome"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/text3"-->
+    <!--android:singleLine="true"-->
+    <!--android:layout_below="@+id/image3"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="热门电台"-->
+    <!--android:layout_marginTop="5dp"/>-->
+    <!--</RelativeLayout>-->
+</LinearLayout>

@@ -1,0 +1,40 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+   
+    android:orientation="vertical"
+ >
+ <RelativeLayout 
+     android:layout_height="92dp"
+     android:layout_width="92dp">
+    <ImageView 
+        android:id="@+id/iv"
+        android:layout_height="match_parent"
+        android:src="@drawable/connected_item"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"/>
+    <ImageView 
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:visibility="gone"
+        android:id="@+id/bofang"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/music_tubiao"/>
+    </RelativeLayout>
+    <TextView 
+        android:textSize="13sp"
+        android:singleLine="true"
+        android:id="@+id/tv"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#5E5E5E"
+        android:text="Max police"/>
+</LinearLayout>

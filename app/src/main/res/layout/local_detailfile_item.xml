@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/videoItem"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp" >
+
+    <TextView
+        android:id="@+id/fileSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/main_black" />
+
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/detailfile_icon"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:visibility="gone" />
+
+    <!--&lt;!&ndash;新增选择CheckBox&ndash;&gt;-->
+    <!--<ImageView-->
+        <!--android:id="@+id/iv_file_item_selected"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:src="@drawable/weixuanzhong"-->
+        <!--android:visibility="gone"/>-->
+
+    <LinearLayout
+        android:id="@+id/detailfile_item_info"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toLeftOf="@id/fileSize"
+        android:layout_toRightOf="@+id/detailfile_icon"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/fileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textColor="@color/main_black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/fileTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/danheise"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</RelativeLayout>

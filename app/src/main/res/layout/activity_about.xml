@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_bk"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        layout="@layout/xgimi_title" />
+   
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/app_common"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="@dimen/about_appicon_size"
+                android:layout_height="@dimen/about_appicon_size"
+                android:layout_marginTop="@dimen/about_pad_title"
+                android:src="@drawable/app_icon" />
+
+            <TextView
+                android:textColor="#5E5E5E"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="无屏助手"
+                android:textSize="15sp" />
+
+            <TextView
+                android:textSize="13sp"
+                android:id="@+id/about_version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+              android:textColor="#19000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/app_common"
+            android:layout_marginTop="@dimen/about_pad_title"
+            android:background="@color/white"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:src="@color/titlespace" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/compad"
+                android:text="微博:&#160;&#064;极米科技"
+                android:textColor="@color/danheise"
+                android:textSize="15sp" >
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="电话:&#160;"
+                    android:textColor="@color/danheise"
+                    android:textSize="15sp" >
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="phone"
+                    android:text="400-0028-960"
+                    android:textColor="@color/danheise"
+                    android:textSize="15sp" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="网站:&#160;"
+                    android:textColor="@color/danheise"
+                    android:textSize="15sp" >
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="web"
+                    android:text="网站:&#160;"
+                    android:textColor="@color/danheise"
+                    android:textSize="15sp" >
+                </TextView>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/about_pad_title"
+                android:layout_marginTop="10dp"
+                android:text="官方QQ交流群:308070042"
+                android:textColor="@color/danheise"
+                android:textSize="15sp" >
+            </TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:src="@color/titlespace" />
+        </LinearLayout>
+
+       <TextView
+            android:id="@+id/about_copyright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="官方QQ交流群:308070042"
+            android:textColor="@color/main_black"
+            android:textSize="15sp" >
+        </TextView>
+	
+        <TextView
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/about_copyright"
+            android:layout_centerHorizontal="true"
+            android:padding="3dp"
+            android:text="成都市极米科技有限公司"
+            android:textColor="@color/main_black"
+            android:textSize="10sp" >
+        </TextView> 
+    </RelativeLayout>
+
+</LinearLayout>

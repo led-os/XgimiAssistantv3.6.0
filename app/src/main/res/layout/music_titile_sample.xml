@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+     android:background="#ffffff"
+ >
+ 
+    
+    <RelativeLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <View
+            android:layout_centerVertical="true"
+             android:background="@drawable/xiancorner"
+            android:id="@+id/remen_xian"
+            android:layout_width="3dp"
+            android:layout_height="15dp"
+            />
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/remen_xian"
+            android:id="@+id/tv_tishi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:text="简介"
+            android:textColor="@color/item_title"
+            android:textSize="15sp" />
+        </RelativeLayout>
+</RelativeLayout>

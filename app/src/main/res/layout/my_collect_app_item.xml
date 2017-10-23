@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@color/main_white"
+        android:layout_height="90dp">
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:scaleType="fitXY"
+           android:layout_centerVertical="true"
+            android:id="@+id/iv"
+            android:src="@drawable/kuang"/>
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/iv"
+            android:layout_alignTop="@+id/iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:textColor="@color/item_title"
+                android:layout_width="wrap_content"
+                android:text="悟空遥控器"
+                android:id="@+id/title"
+                android:textSize="15sp"
+
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/size"
+                    android:layout_width="wrap_content"
+                    android:text="20.5M "
+                    android:textSize="12sp"
+                    android:textColor="@color/ADADAD"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:text="射击飞行"
+                    android:id="@+id/kind"
+                    android:textColor="@color/item_title"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:text="18298 玩过"
+                android:id="@+id/add_time"
+                android:textSize="12sp"
+                android:textColor="@color/ADADAD"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

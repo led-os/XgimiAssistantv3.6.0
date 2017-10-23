@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp">
+
+        <com.xgimi.zhushou.widget.CircleImageView
+            android:id="@+id/iv_more_app_item_layout"
+            android:layout_width="@dimen/apply_youxi_wight"
+            android:layout_height="@dimen/apply_youxi_wight" />
+
+        <TextView
+            android:id="@+id/tv_more_app_item_layout"
+            android:layout_width="@dimen/apply_youxi_wight"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_marginTop="4dp"
+            android:text="极米助手"
+            android:textColor="#5E5E5E"
+            android:textSize="13sp" />
+    </LinearLayout>
+</LinearLayout>

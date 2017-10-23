@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="slidingmenu_offset">100dp</dimen>
+
+    <!-- 标题配置 -->
+    <dimen name="title_height">45dp</dimen>
+    <!-- 设置item高度 -->
+    <dimen name="layout_item_height">45dp</dimen>
+
+    <!-- 同屏界面的重力按钮距离左边的间距 -->
+    <dimen name="yiping_btn_padding">5dp</dimen>
+    <dimen name="yiping_gravity_padding">10dp</dimen>
+
+    <!-- 关于界面的一些间距 -->
+    <dimen name="about_appicon_size">50dp</dimen>
+    <dimen name="about_pad_title">20dp</dimen>
+    <dimen name="qrcodesize">60dp</dimen>
+    <dimen name="compad">10dp</dimen>
+
+    <!-- 界面 -->
+    <dimen name="EditText_item_height">40dp</dimen>
+    <dimen name="EditText_pwd_height">35dp</dimen>
+
+     <dimen name="gm_indctor">60dp</dimen>
+     <dimen name="guanggaowei">140dp</dimen>
+      <dimen name="tupian_height">60dp</dimen>
+                <dimen name="tupian_width">80dp</dimen>
+                <dimen name="fangxiangtop">5dp</dimen>
+                  <dimen name="tv_size">14sp</dimen>
+                 <dimen name="yaokongheight">250dp</dimen>
+    <dimen name="apply_item">52dp</dimen>
+
+</resources>

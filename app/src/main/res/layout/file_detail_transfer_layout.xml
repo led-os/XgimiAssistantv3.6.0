@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_height="44dp"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        layout="@layout/xgimi_title"
+        />
+
+    <ListView
+        android:id="@+id/file_detail_listView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@color/divider_color"
+        android:scrollbars="none"
+        android:dividerHeight="1px"
+        android:listSelector="@drawable/listview_selector" >
+    </ListView>
+
+</LinearLayout>

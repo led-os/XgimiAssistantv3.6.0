@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F7F7F7">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/id_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        >
+        <include
+            layout="@layout/xgimi_title"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/title"></include>
+    </android.support.v7.widget.Toolbar>
+    <RelativeLayout
+        android:background="#ffffff"
+        android:id="@+id/rl_one"
+        android:layout_below="@+id/id_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+
+        android:id="@+id/tishi"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@drawable/live_tishi_beijing">
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/zhinengwifi"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:id="@+id/tv_current_wifi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="当前已连接网络: XGIMI2.4G"
+            android:textColor="@color/main_white"
+            android:layout_centerVertical="true"
+            android:textSize="14sp"
+            android:layout_toRightOf="@+id/image"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:id="@+id/xianshi"
+        android:layout_below="@+id/tishi"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_centerVertical="true"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:text="已搜索到的连入局域网的设备:"
+            android:layout_marginLeft="10dp"
+            android:textColor="#5E5E5E"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/iv_refresh"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_width="60dp"
+            android:layout_alignParentRight="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/zhinengshuaxin"
+            android:layout_height="49dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/fengexian"
+            android:layout_alignParentBottom="true"
+            ></View>
+    </RelativeLayout>
+    <ListView
+        android:background="#ffffff"
+        android:visibility="gone"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/xianshi"
+        android:layout_width="match_parent"
+        android:id="@+id/listview"
+        android:layout_marginBottom="100dp"
+        android:layout_height="wrap_content"></ListView>
+    <LinearLayout
+        android:background="#ffffff"
+        android:id="@+id/ll_tishi"
+        android:layout_below="@+id/xianshi"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="暂未连接任何智能设备"
+            android:textColor="#999999"
+            android:textSize="15sp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="可点击下方 “添加” 按钮连接设备"
+            android:textColor="#999999"
+            android:textSize="15sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/peizhi"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo"
+        android:layout_marginBottom="20dp"
+        android:text="添加/搜索新设备"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:visibility="gone"
+        android:background="#ffffff"
+        android:id="@+id/rl_connect_later"
+        android:layout_below="@+id/id_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_mubu"
+        android:layout_width="wrap_content"
+        android:text="极米智能幕布"
+        android:textColor="#4D4D4D"
+        android:textSize="17sp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_ip"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/tv_mubu"
+            android:layout_width="wrap_content"
+            android:text="(192.168.1.105)"
+            android:textColor="#999999"
+            android:textSize="15sp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content" />
+        <View
+            android:id="@+id/fengexian"
+            android:layout_below="@+id/tv_ip"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/fengexianone">
+        </View>
+        <ImageView
+            android:clickable="true"
+            android:id="@+id/iv_up"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/fengexian"
+            android:layout_width="wrap_content"
+            android:src="@drawable/inter_press"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/iv_up"
+            android:src="@drawable/inter_pause_selector"
+            android:layout_marginTop="20dp"
+            android:id="@+id/iv_play"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:clickable="true"
+            android:id="@+id/iv_down"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/iv_play"
+            android:layout_width="wrap_content"
+            android:src="@drawable/inter_down_one"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#CCCCCC"
+            android:layout_below="@+id/iv_down"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:id="@+id/iv_tv_tishi"
+            android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:layout_alignParentBottom="true"
+           android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:text="开机幕布自动落下, 关机幕布自动升起"
+            android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/iv_turn_switch"
+                android:layout_alignParentRight="true"
+                android:gravity="right"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/inter_open"/>
+        </RelativeLayout>
+</RelativeLayout>
+
+
+</RelativeLayout>

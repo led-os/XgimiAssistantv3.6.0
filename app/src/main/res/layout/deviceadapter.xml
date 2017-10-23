@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="38dp"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_device_name_search_device_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="aaaaaa"
+        android:textColor="#919191"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_device_ip_search_device_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="6dp"
+        android:layout_toRightOf="@+id/tv_device_name_search_device_item"
+        android:gravity="center_vertical"
+        android:text="aaaa"
+        android:textColor="#919191"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/iv_device_connected_search_device_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:src="@drawable/connected_item"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/xian"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/iv_device_connected_search_device_item"
+        android:background="@color/xiantiao" />
+</RelativeLayout>

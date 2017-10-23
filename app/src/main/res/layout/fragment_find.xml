@@ -1,0 +1,176 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:Android="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/jiangese"
+    tools:context="com.xgimi.zhushou.fragment.FindFragment">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/rl"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:background="@drawable/tou_bei">
+
+                <com.xgimi.zhushou.widget.yuanxing
+                    android:id="@+id/touxiang"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/touxiao" />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@+id/touxiang"
+                    android:text="小头儿子"
+
+                    android:textColor="@color/baise"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/touxiang_you" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rl"
+                android:orientation="vertical">
+
+                <include
+                    android:id="@+id/one"
+                    layout="@layout/user_item_function"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#ffffff" />
+
+                <include
+                    android:id="@+id/two"
+                    layout="@layout/user_item_function"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#ffffff" />
+
+                <include
+                    android:id="@+id/three"
+                    layout="@layout/user_item_function"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#ffffff" />
+
+                <include
+                    android:id="@+id/filetransfer"
+                    layout="@layout/user_item_function"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#ffffff" />
+
+                <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="0.5dp"-->
+                <!--android:background="#19000000" />-->
+
+                <!--<include-->
+                <!--android:id="@+id/include_photo_wall"-->
+                <!--layout="@layout/user_item_function"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:background="#ffffff" />-->
+
+
+                <com.xgimi.zhushou.widget.MyListview
+                    android:id="@+id/listview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/baise"
+                    android:divider="#00000000"
+                    android:dividerHeight="0dp"/>
+
+                <include
+                    android:id="@+id/four"
+                    layout="@layout/user_item_function"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#ffffff"
+                    android:visibility="gone" />
+
+                <include
+                    android:id="@+id/five"
+                    layout="@layout/user_item_function"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#ffffff"
+                    android:visibility="gone" />
+
+                <include
+                    android:id="@+id/six"
+                    layout="@layout/user_item_function"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#ffffff"
+                    android:visibility="gone" />
+
+                <include
+                    android:id="@+id/seven"
+                    layout="@layout/user_item_function"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#ffffff" />
+
+                <include
+                    android:id="@+id/myMessage"
+                    layout="@layout/user_item_function"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#ffffff" />
+
+                <include
+                    android:id="@+id/eight"
+                    layout="@layout/user_item_function"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#ffffff"
+                    android:visibility="gone" />
+
+                <include
+                    android:id="@+id/nine"
+                    layout="@layout/user_item_function"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#ffffff" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@color/jiangese"></View>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

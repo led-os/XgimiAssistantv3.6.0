@@ -1,0 +1,45 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+ >
+ 
+    <RelativeLayout 
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+ <RelativeLayout
+     android:id="@+id/ll" 
+     android:layout_height="@dimen/movie_item_height"
+     android:layout_width="match_parent">
+     
+    <ImageView 
+     
+        android:id="@+id/iv"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"/>
+    <ImageView 
+        android:visibility="gone"
+        android:id="@+id/iv_dagou"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@drawable/collecton_wei"/>
+    </RelativeLayout>
+    <TextView 
+        android:layout_below="@+id/ll"
+        android:textSize="13sp"
+        android:singleLine="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tv"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#5E5E5E"
+        android:text="Max police"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="wrap_content">
+<ImageView
+    android:layout_marginLeft="10dp"
+    android:layout_width="30dp"
+    android:id="@+id/iv"
+    android:scaleType="fitXY"
+    android:layout_centerVertical="true"
+    android:layout_height="30dp" />
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/iv"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="腾讯视频"/>
+    <TextView
+        android:id="@+id/install"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="未安装"/>
+
+</RelativeLayout>

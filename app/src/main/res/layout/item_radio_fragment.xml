@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="4dp">
+        <ImageView
+            android:id="@+id/iv_radio_item_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:scaleType="fitXY" />
+
+        <!--<ImageView-->
+        <!--android:layout_width="20dp"-->
+        <!--android:layout_height="20dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:background="@drawable/bofang"-->
+        <!--android:layout_marginBottom="40dp"-->
+        <!--android:layout_marginRight="20dp"/>-->
+
+        <TextView
+            android:id="@+id/tv_radio_item_name"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:singleLine="true"
+            android:text="热门电台" />
+    </LinearLayout>
+
+
+</LinearLayout>

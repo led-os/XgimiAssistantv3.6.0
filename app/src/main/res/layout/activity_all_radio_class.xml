@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/local_yingyong_title"
+        layout="@layout/xgimi_title"
+        android:layout_width="match_parent"
+        android:layout_height="44dp" />
+
+    <include
+        android:id="@+id/load_false"
+        layout="@layout/load_false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/netconnect"
+        layout="@layout/net_connect"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/local_yingyong_title"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+    <GridView
+        android:id="@+id/recyleview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/local_yingyong_title"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:numColumns="3">
+
+    </GridView>
+
+</RelativeLayout>

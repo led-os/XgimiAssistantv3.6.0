@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:background="@color/main_white"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我收藏的游戏"
+        android:textSize="15sp"
+        android:textColor="@color/item_title"
+        android:layout_toRightOf="@+id/image"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="18dp"/>
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="共100首"
+            android:textSize="12sp"
+            android:textColor="@color/ADADAD"
+            android:layout_below="@+id/text1"
+            android:layout_toRightOf="@+id/image"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"/>
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/text2"
+            android:textColor="@color/ADADAD"
+            android:textSize="12sp"
+            android:layout_below="@+id/text1"
+            android:layout_marginTop="8dp"
+            android:text="首"/>
+      <View
+          android:id="@+id/xian"
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="@color/F9F9F9"
+          android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

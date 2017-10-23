@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <GridView 
+        android:clickable="true"
+        android:layout_marginTop="10dp"
+       android:background="#ffffff"
+       android:listSelector="@drawable/listview_selector"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+         android:scrollbars="none"
+        android:id="@+id/baibaogridview"
+        android:numColumns="3"></GridView>
+  </RelativeLayout>

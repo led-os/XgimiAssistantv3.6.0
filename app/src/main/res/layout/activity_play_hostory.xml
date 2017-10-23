@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/F7F7F7"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.xgimi.zhushou.activity.PlayHostoryActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/id_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:scaleType="centerInside"
+                android:layout_width="50dp"
+                android:id="@+id/back"
+                android:src="@drawable/gimi_back"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_centerInParent="true"
+                android:textSize="17sp"
+                android:id="@+id/tv_titile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="最近观看"
+                android:textColor="#ffffff" />
+            <TextView
+                android:textSize="17sp"
+                android:layout_width="60dp"
+                android:text="清空"
+                android:id="@+id/tv_clean"
+                android:textColor="#ffffff"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+    <com.baoyz.swipemenulistviewsample.SwipeMenuListView
+        android:background="@color/F7F7F7"
+        android:id="@+id/gridview"
+        android:layout_below="@+id/id_toolbar"
+        android:layout_height="wrap_content"
+        android:listSelector="@drawable/listview_selector"
+        android:layout_width="match_parent">
+    </com.baoyz.swipemenulistviewsample.SwipeMenuListView>
+</RelativeLayout>

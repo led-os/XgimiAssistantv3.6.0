@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialogbutton_bk"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/update_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="发现新版本"
+        android:textColor="#ff5e5e5e"
+        android:textSize="19sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/titlespace" />
+
+    <TextView
+        android:id="@+id/update_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="#ff5e5e5e"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/titlespace" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/update_now"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/dialogbutton_left_selector"
+            android:paddingBottom="15dip"
+            android:paddingTop="15dip"
+            android:text="现在跟新"
+            android:textColor="#ff5e5e5e"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/titlespace" />
+
+        <Button
+            android:id="@+id/update_next"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/dialogbutton_right_selector"
+            android:paddingBottom="15dip"
+            android:paddingTop="15dip"
+            android:text="下次再说"
+            android:textColor="#ff5e5e5e"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <style name="Theme.splash.my" parent="@style/Theme.AppCompat.Light.NoActionBar">
+                <!--正常状态下字体颜色和icon颜色-->
+                <item name="android:windowBackground">@drawable/app_start</item>
+                <!-- API 19 theme customizations can go here. -->
+                <item name="android:windowTranslucentStatus">true</item>
+                <item name="android:windowTranslucentNavigation">true</item>
+        </style>
+</resources>

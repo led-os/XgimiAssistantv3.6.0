@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/xgimi_title"
+        android:layout_width="match_parent"
+        android:layout_height="44dp" />
+
+    <ListView
+        android:id="@+id/lisetview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title"></ListView>
+
+    <TextView
+        android:id="@+id/nodata"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title"
+        android:gravity="center"
+        android:text="暂无推送消息"
+        android:textColor="@color/titlespace"
+        android:textSize="15sp" />
+</RelativeLayout>

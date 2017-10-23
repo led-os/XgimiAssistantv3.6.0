@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/xiantiao"
+        android:id="@+id/xian"/>
+    <RelativeLayout
+       android:layout_below="@+id/xian"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="110dp">
+        <ImageView
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/iv"
+            android:scaleType="fitXY"
+            android:layout_width="90dp"
+            android:layout_height="90dp" />
+        <TextView
+            android:id="@+id/radio_title"
+            android:singleLine="true"
+            android:layout_toRightOf="@+id/iv"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="电台"
+            android:textSize="15sp"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

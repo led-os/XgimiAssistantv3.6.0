@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="wrap_content">
+<TextView
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#4392F3"
+    android:textSize="16sp"
+    android:gravity="center"
+    android:text="新配件连入局域网"/>
+<LinearLayout
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="15dp"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="WIFI名称:"
+        android:textColor="#848484"
+        android:textSize="15sp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_ssid"
+        android:layout_width="wrap_content"
+        android:textColor="#4D4D4D"
+        android:text="Xgimi"
+        android:layout_marginLeft="10dp"
+        android:textSize="17sp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="WIFI密码:"
+            android:textColor="#848484"
+            android:textSize="15sp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent" />
+        <EditText
+            android:paddingLeft="5dp"
+            android:id="@+id/search"
+            android:layout_gravity="center_vertical"
+            android:imeOptions="actionSearch"
+            android:inputType="textPassword"
+            android:layout_centerVertical="true"
+            android:background="@drawable/zhinengbeijing"
+            android:layout_width="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_height="40dp"
+            android:textColor="#4D4D4D"
+            android:textSize="17sp"
+            android:textColorHint="#4D4D4D"
+            android:layout_marginLeft="10dp"
+            android:hint="输入密码"
+            >
+            <requestFocus></requestFocus>
+        </EditText>
+    </LinearLayout>
+    <Button
+        android:id="@+id/connect"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/logo"
+        android:text="连接"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content" />
+</LinearLayout>

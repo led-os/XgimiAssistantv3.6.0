@@ -1,0 +1,163 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f7"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        layout="@layout/xgimi_title" />
+
+    <include
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:id="@+id/gerenxinxi"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        layout="@layout/set_sample" />
+
+    <include
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+         android:background="#ffffff"
+        android:id="@+id/yaokongset"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        layout="@layout/set_sample" />
+
+    <include
+        android:layout_marginTop="10dp"
+         android:background="#ffffff"
+        android:id="@+id/cleanhuancun"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        layout="@layout/set_sample" />
+
+
+    <!--<include-->
+        <!---->
+         <!--android:background="#ffffff"-->
+        <!--android:id="@+id/yijinafankui"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="50dp"-->
+        <!--layout="@layout/set_sample" />-->
+
+    <include
+         android:background="#ffffff"
+         android:visibility="gone"
+        android:id="@+id/pingfen"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        layout="@layout/set_sample" />
+
+    <include
+        android:visibility="gone"
+         android:background="#ffffff"
+        android:id="@+id/guanyu"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        layout="@layout/set_sample" />
+    <LinearLayout 
+        android:paddingTop="7dp"
+        android:paddingLeft="10dp"
+        android:layout_height="50dp"
+        android:background="@drawable/listview_selector"
+        android:layout_width="match_parent"
+        >
+        <LinearLayout 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical">
+            <TextView 
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="版本信息"
+                android:textSize="17sp"
+                android:textColor="#5E5E5E"/>
+             <TextView 
+                 android:id="@+id/banben"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#995E5E5E"/>
+        </LinearLayout>
+    </LinearLayout>
+       <View 
+                android:id="@+id/view"
+                android:layout_marginLeft="10dp"
+                android:layout_height="0.5dp"
+                android:background="#19000000"
+                android:layout_width="match_parent"/>
+       
+       <LinearLayout 
+        android:paddingTop="7dp"
+        android:paddingLeft="10dp"
+         android:id="@+id/jiaoliu"
+        android:layout_height="50dp"
+           android:visibility="gone"
+        android:background="@drawable/listview_selector"
+        android:layout_width="match_parent">
+        <LinearLayout 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical">
+            <TextView 
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="加入交流"
+                android:textSize="17sp"
+                android:textColor="#5E5E5E"/>
+             <TextView 
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="14sp"
+                android:text="qq群:580877255"
+                android:textColor="#995E5E5E"/>
+        </LinearLayout>
+    </LinearLayout>
+     
+       
+    <!--<RelativeLayout -->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:background="#ffffff"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_width="match_parent">-->
+        <!--<TextView -->
+           <!--android:layout_centerVertical="true"-->
+           <!--android:layout_height="wrap_content"-->
+           <!--android:layout_width="wrap_content"-->
+           <!--android:text="接收消息"-->
+           <!--android:layout_marginLeft="10dp"-->
+           <!--android:textSize="17sp"-->
+           <!--android:textColor="#5E5E5E" />-->
+        <!--<ToggleButton-->
+            <!--android:id="@+id/tp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:background="@drawable/touming"-->
+            <!--android:button="@drawable/ios7_btn"-->
+            <!--android:checked="true"-->
+            <!--android:text=""-->
+            <!--android:textOff=""-->
+            <!--android:textOn="" />-->
+    <!--</RelativeLayout>-->
+
+    <Button 
+        android:id="@+id/tuichu"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="50dp"
+        android:text="退出账号"
+         android:background="@drawable/usre_logo"
+        android:layout_width="match_parent"
+        />
+</LinearLayout>

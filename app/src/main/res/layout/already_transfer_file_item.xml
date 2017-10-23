@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="61dp">
+    <ImageView
+        android:id="@+id/select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:src="@drawable/weixuanzhong"/>
+    <RelativeLayout
+        android:id="@+id/rl_image"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/select"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/file_transfer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/morenshiping"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/rl_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="文件的名字"
+        android:textSize="14sp"
+        android:singleLine="true"
+        android:textColor="@color/item_title" />
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时间"
+            android:textSize="11sp"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/filetime" />
+    </LinearLayout>
+    <View
+        android:id="@+id/xian"
+        android:layout_below="@+id/rl_image"
+        android:layout_marginLeft="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/xiantiao"/>
+</RelativeLayout>

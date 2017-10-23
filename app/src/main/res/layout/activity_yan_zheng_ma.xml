@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#f5f5f7"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        layout="@layout/xgimi_title" />
+
+    <RelativeLayout
+        android:background="#ffffff"
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="10dp" >
+
+        <EditText
+            android:id="@+id/name"
+            style="@style/UserEditText_FontSize"
+            android:layout_width="200dp"
+            android:layout_height="@dimen/EditText_item_height"
+            android:hint="输入验证码"
+            android:maxLength="15"
+            android:textColor="@color/item_title"
+            android:textSize="15sp" />
+
+        <Button
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:id="@+id/button"
+            android:layout_width="70dp"
+            android:textColor="#4392f3"
+            android:layout_height="@dimen/EditText_item_height"
+            android:layout_toRightOf="@+id/name"
+            android:background="@null"
+            android:text="重新发送" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/zhuce"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/rl"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/logo"
+        android:text="下一步"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+</RelativeLayout>

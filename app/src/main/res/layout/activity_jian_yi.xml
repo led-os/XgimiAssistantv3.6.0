@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#292933" >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:src="@drawable/gimi_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="意见反馈"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_ivremount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="10dp"
+            android:text="提交"
+            android:textColor="#ffffff"
+            android:textSize="17sp" />
+    </RelativeLayout>
+<ListView 
+   android:divider="#00000000"
+    android:transcriptMode="normal"
+     android:paddingBottom="58dp"
+    android:layout_below="@+id/title"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/listview"
+    android:listSelector="@drawable/listview_selector">
+    
+</ListView>
+    
+    
+    <RelativeLayout 
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="#ffffff"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        >
+    
+    <EditText
+        android:hint=""
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/et"
+        android:layout_width="@dimen/yijian_width"
+        android:layout_height="38dp"
+        android:background="@drawable/edittextbackground"
+        android:textColor="@color/item_title"
+        android:textSize="15sp" />
+      <TextView
+          android:layout_centerVertical="true"
+                android:id="@+id/fasong"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发 送"
+                android:textColor="#5E5E5E"
+                android:textSize="18sp" />
+</RelativeLayout>
+</RelativeLayout>

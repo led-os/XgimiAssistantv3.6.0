@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <Button
+        android:id="@+id/yiping_menu_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/yiping_close_selector"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/yiping_menu_close_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/yiping_close_selector"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/yiping_btn_padding"
+        android:layout_toLeftOf="@id/yiping_menu_close_right"
+        android:layout_toRightOf="@id/yiping_menu_close"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/yiping_menu_volume_decreast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/yiping_vol_decrease_selector" />
+
+        <Button
+            android:id="@+id/yiping_menu_volume_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/yiping_menu_volume_decreast"
+            android:background="@drawable/yiping_vol_add_selector" />
+
+        <Button
+            android:id="@+id/yiping_menu_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/yiping_btn_padding"
+            android:background="@drawable/yiping_menu_selector" />
+
+        <Button
+            android:id="@+id/yiping_menu_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/yiping_btn_padding"
+            android:layout_toLeftOf="@id/yiping_menu_menu"
+            android:background="@drawable/yiping_home_selector" />
+
+        <Button
+            android:id="@+id/yiping_menu_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/yiping_btn_padding"
+            android:layout_toLeftOf="@id/yiping_menu_home"
+            android:background="@drawable/yiping_back_selector" />
+
+        <Button
+            android:id="@+id/yiping_menu_gravity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/yiping_gravity_padding"
+            android:layout_toLeftOf="@id/yiping_menu_back"
+            android:background="@drawable/gravity_colse" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xgimi.zhushou.activity.SplashActivity">
+<ImageView
+    android:id="@+id/iv_adver"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="fitXY"
+    />
+    <Button
+        android:id="@+id/skip"
+        android:layout_width="70dp"
+        android:text="跳过"
+        android:background="@drawable/app_skip_background"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="40dp"
+        android:textSize="14sp"
+        android:layout_marginRight="10dp"
+        android:textColor="#ffffff"
+        android:layout_height="30dp" />
+    <ImageView
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:background="@drawable/appstart_bootm"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

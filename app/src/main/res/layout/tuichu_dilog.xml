@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout 
+      
+        android:background="@drawable/sandidrawale"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+ 
+    <TextView 
+          android:layout_marginTop="15dp"
+                 android:layout_centerHorizontal="true"
+        android:id="@+id/tishi"
+         android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="确认退出?"/>
+    <View 
+        android:id="@+id/xian"
+        android:layout_below="@+id/tishi"
+        android:layout_marginTop="20dp"
+        android:layout_height="0.5dp"
+        android:background="#19000000"
+        android:layout_width="match_parent"
+        />
+    <LinearLayout 
+        android:layout_below="@+id/xian"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+        <Button 
+            android:id="@+id/queren"
+            android:background="@null"
+             android:textColor="#000000"
+             android:textSize="16sp"
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="确认"
+            />
+       <View 
+        android:layout_height="match_parent"
+        android:background="#19000000"
+        android:layout_width="0.5dp"
+        />
+          <Button 
+              android:id="@+id/quxiao"
+                android:textColor="#000000"
+                android:background="@null"
+               android:textSize="16sp"
+            android:layout_height="50dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="取消"
+            />
+    </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

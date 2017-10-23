@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <ImageView
+        android:id="@+id/mv_image"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:background="@color/moren"
+        android:scaleType="fitXY"
+         />
+    <TextView
+        android:id="@+id/mv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="布衣乐队音乐会"
+        android:textSize="15sp"
+
+        android:singleLine="true"
+        android:textColor="@color/item_title"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/mv_artist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="布衣乐队"
+
+        android:textSize="13sp"
+        android:singleLine="true"
+        android:layout_marginTop="3dp"
+        android:textColor="#848484"
+       />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/line1"
+        android:layout_marginLeft="5dp">
+        <ImageView
+            android:id="@+id/mv_image1"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:background="@color/moren"
+            android:scaleType="fitXY"
+            />
+        <TextView
+            android:id="@+id/mv_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="布衣乐队音乐会"
+            android:textSize="15sp"
+            android:singleLine="true"
+            android:textColor="@color/item_title"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:id="@+id/mv_artist1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="布衣乐队"
+            android:singleLine="true"
+            android:textSize="13sp"
+            android:layout_marginTop="3dp"
+            android:textColor="#848484"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>

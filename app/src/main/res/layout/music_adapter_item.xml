@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+   >
+   
+    <RelativeLayout
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_vertical"
+        android:layout_height="50dp"
+        android:layout_width="match_parent">
+<TextView 
+    android:layout_gravity="center_vertical"
+    android:id="@+id/gequ"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:singleLine="true"
+    android:text="南山南"
+    android:textSize="17sp"
+    android:textColor="@color/time"
+    />
+<TextView
+    android:layout_below="@+id/gequ"
+    android:layout_marginTop="5dp"
+    android:singleLine="true"
+    android:id="@+id/singer"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="张磊"
+    android:textSize="13sp"
+    android:textColor="@color/time"
+    />
+   </RelativeLayout>
+</LinearLayout>

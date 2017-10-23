@@ -1,0 +1,1127 @@
+{
+"usual": [
+{
+"brief": "CN",
+"country": "中国",
+"code": "86"
+},
+{
+"brief": "TW",
+"country": "台湾",
+"code": "886"
+},
+{
+"brief": "HK",
+"country": "中国香港",
+"code": "852"
+},
+{
+"brief": "BR",
+"country": "Brazil",
+"code": "55"
+},
+{
+"brief": "IN",
+"country": "India",
+"code": "91"
+},
+{
+"brief": "ID",
+"country": "Indonesia",
+"code": "62"
+},
+{
+"brief": "MY",
+"country": "Malaysia",
+"code": "60"
+}
+],
+"A": [
+{
+"brief": "AF",
+"country": "Afghanistan",
+"code": "93"
+},
+{
+"brief": "AL",
+"country": "Albania",
+"code": "355"
+},
+{
+"brief": "DZ",
+"country": "Algeria",
+"code": "213"
+},
+{
+"brief": "AD",
+"country": "Andorra",
+"code": "376"
+},
+{
+"brief": "AO",
+"country": "Angola",
+"code": "244"
+},
+{
+"brief": "AI",
+"country": "Anguilla",
+"code": "1264"
+},
+{
+"brief": "AG",
+"country": "Antigua and Barbuda",
+"code": "1268"
+},
+{
+"brief": "AR",
+"country": "Argentina",
+"code": "54"
+},
+{
+"brief": "AM",
+"country": "Armenia",
+"code": "374"
+},
+{
+"brief": "AW",
+"country": "Aruba",
+"code": "297"
+},
+{
+"brief": "AU",
+"country": "Australia",
+"code": "61"
+},
+{
+"brief": "AT",
+"country": "Austria",
+"code": "43"
+},
+{
+"brief": "AZ",
+"country": "Azerbaijan",
+"code": "994"
+}
+],
+"B": [
+{
+"brief": "BS",
+"country": "Bahamas",
+"code": "1242"
+},
+{
+"brief": "BH",
+"country": "Bahrain",
+"code": "973"
+},
+{
+"brief": "BD",
+"country": "Bangladesh",
+"code": "880"
+},
+{
+"brief": "BB",
+"country": "Barbados",
+"code": "1246"
+},
+{
+"brief": "BY",
+"country": "Belarus",
+"code": "375"
+},
+{
+"brief": "BE",
+"country": "Belgium",
+"code": "32"
+},
+{
+"brief": "BZ",
+"country": "Belize",
+"code": "501"
+},
+{
+"brief": "BJ",
+"country": "Benin",
+"code": "229"
+},
+{
+"brief": "BM",
+"country": "Bermuda",
+"code": "1441"
+},
+{
+"brief": "BT",
+"country": "Bhutan",
+"code": "975"
+},
+{
+"brief": "BO",
+"country": "Bolivia",
+"code": "591"
+},
+{
+"brief": "BA",
+"country": "Bosnia and Herzegovina",
+"code": "387"
+},
+{
+"brief": "BW",
+"country": "Botswana",
+"code": "267"
+},
+{
+"brief": "BN",
+"country": "Brunei",
+"code": "673"
+},
+{
+"brief": "BG",
+"country": "Bulgaria",
+"code": "359"
+},
+{
+"brief": "BF",
+"country": "Burkina Faso",
+"code": "226"
+},
+{
+"brief": "BI",
+"country": "Burundi",
+"code": "257"
+}
+],
+"C": [
+{
+"brief": "KH",
+"country": "Cambodia",
+"code": "855"
+},
+{
+"brief": "CM",
+"country": "Cameroon",
+"code": "237"
+},
+{
+"brief": "CA",
+"country": "Canada",
+"code": "1"
+},
+{
+"brief": "CV",
+"country": "Cape Verde",
+"code": "238"
+},
+{
+"brief": "KY",
+"country": "Cayman Islands",
+"code": "1345"
+},
+{
+"brief": "CF",
+"country": "Central African Republic",
+"code": "236"
+},
+{
+"brief": "TD",
+"country": "Chad",
+"code": "235"
+},
+{
+"brief": "CL",
+"country": "Chile",
+"code": "56"
+},
+{
+"brief": "CO",
+"country": "Colombia",
+"code": "57"
+},
+{
+"brief": "KM",
+"country": "Comoros",
+"code": "269"
+},
+{
+"brief": "CK",
+"country": "Cook Islands",
+"code": "682"
+},
+{
+"brief": "CR",
+"country": "Costa Rica",
+"code": "506"
+},
+{
+"brief": "HR",
+"country": "Croatia",
+"code": "385"
+},
+{
+"brief": "CU",
+"country": "Cuba",
+"code": "53"
+},
+{
+"brief": "CY",
+"country": "Cyprus",
+"code": "357"
+},
+{
+"brief": "CZ",
+"country": "Czech Republic",
+"code": "420"
+}
+],
+"D": [
+{
+"brief": "CD",
+"country": "Democratic Republic of the Congo",
+"code": "243"
+},
+{
+"brief": "DK",
+"country": "Denmark",
+"code": "45"
+},
+{
+"brief": "DJ",
+"country": "Djibouti",
+"code": "253"
+},
+{
+"brief": "DM",
+"country": "Dominica",
+"code": "1767"
+},
+{
+"brief": "DO",
+"country": "Dominican Republic",
+"code": "1809"
+}
+],
+"E": [
+{
+"brief": "TL",
+"country": "East Timor",
+"code": "670"
+},
+{
+"brief": "EC",
+"country": "Ecuador",
+"code": "593"
+},
+{
+"brief": "EG",
+"country": "Egypt",
+"code": "20"
+},
+{
+"brief": "SV",
+"country": "El Salvador",
+"code": "503"
+},
+{
+"brief": "GQ",
+"country": "Equatorial Guinea",
+"code": "240"
+},
+{
+"brief": "EE",
+"country": "Estonia",
+"code": "372"
+},
+{
+"brief": "ET",
+"country": "Ethiopia",
+"code": "251"
+}
+],
+"F": [
+{
+"brief": "FO",
+"country": "Faroe Islands",
+"code": "298"
+},
+{
+"brief": "FJ",
+"country": "Fiji",
+"code": "679"
+},
+{
+"brief": "FI",
+"country": "Finland",
+"code": "358"
+},
+{
+"brief": "FR",
+"country": "France",
+"code": "33"
+},
+{
+"brief": "GF",
+"country": "French Guiana",
+"code": "594"
+},
+{
+"brief": "PF",
+"country": "French Polynesia",
+"code": "689"
+}
+],
+"G": [
+{
+"brief": "GA",
+"country": "Gabon",
+"code": "241"
+},
+{
+"brief": "GM",
+"country": "Gambia",
+"code": "220"
+},
+{
+"brief": "GE",
+"country": "Georgia",
+"code": "995"
+},
+{
+"brief": "DE",
+"country": "Germany",
+"code": "49"
+},
+{
+"brief": "GH",
+"country": "Ghana",
+"code": "233"
+},
+{
+"brief": "GI",
+"country": "Gibraltar",
+"code": "350"
+},
+{
+"brief": "GR",
+"country": "Greece",
+"code": "30"
+},
+{
+"brief": "GL",
+"country": "Greenland",
+"code": "299"
+},
+{
+"brief": "GD",
+"country": "Grenada",
+"code": "1473"
+},
+{
+"brief": "GP",
+"country": "Guadeloupe",
+"code": "590"
+},
+{
+"brief": "GU",
+"country": "Guam",
+"code": "1671"
+},
+{
+"brief": "GT",
+"country": "Guatemala",
+"code": "502"
+},
+{
+"brief": "GN",
+"country": "Guinea",
+"code": "224"
+},
+{
+"brief": "GW",
+"country": "Guinea-Bissau",
+"code": "245"
+},
+{
+"brief": "GY",
+"country": "Guyana",
+"code": "592"
+}
+],
+"H": [
+{
+"brief": "HT",
+"country": "Haiti",
+"code": "509"
+},
+{
+"brief": "HN",
+"country": "Honduras",
+"code": "504"
+},
+{
+"brief": "HU",
+"country": "Hungary",
+"code": "36"
+}
+],
+"I": [
+{
+"brief": "IS",
+"country": "Iceland",
+"code": "354"
+},
+{
+"brief": "IR",
+"country": "Iran",
+"code": "98"
+},
+{
+"brief": "IQ",
+"country": "Iraq",
+"code": "964"
+},
+{
+"brief": "IE",
+"country": "Ireland",
+"code": "353"
+},
+{
+"brief": "IL",
+"country": "Israel",
+"code": "972"
+},
+{
+"brief": "IT",
+"country": "Italy",
+"code": "39"
+},
+{
+"brief": "CI",
+"country": "Ivory Coast",
+"code": "225"
+}
+],
+"J": [
+{
+"brief": "JM",
+"country": "Jamaica",
+"code": "1876"
+},
+{
+"brief": "JP",
+"country": "Japan",
+"code": "81"
+},
+{
+"brief": "JO",
+"country": "Jordan",
+"code": "962"
+}
+],
+"K": [
+{
+"brief": "KZ",
+"country": "Kazakhstan",
+"code": "7"
+},
+{
+"brief": "KE",
+"country": "Kenya",
+"code": "254"
+},
+{
+"brief": "KI",
+"country": "Kiribati",
+"code": "686"
+},
+{
+"brief": "KW",
+"country": "Kuwait",
+"code": "965"
+},
+{
+"brief": "KG",
+"country": "Kyrgyzstan",
+"code": "996"
+}
+],
+"L": [
+{
+"brief": "LA",
+"country": "Laos",
+"code": "856"
+},
+{
+"brief": "LV",
+"country": "Latvia",
+"code": "371"
+},
+{
+"brief": "LB",
+"country": "Lebanon",
+"code": "961"
+},
+{
+"brief": "LS",
+"country": "Lesotho",
+"code": "266"
+},
+{
+"brief": "LR",
+"country": "Liberia",
+"code": "231"
+},
+{
+"brief": "LY",
+"country": "Libya",
+"code": "218"
+},
+{
+"brief": "LI",
+"country": "Liechtenstein",
+"code": "423"
+},
+{
+"brief": "LT",
+"country": "Lithuania",
+"code": "370"
+},
+{
+"brief": "LU",
+"country": "Luxembourg",
+"code": "352"
+}
+],
+"M": [
+{
+"brief": "MO",
+"country": "Macau",
+"code": "853"
+},
+{
+"brief": "MK",
+"country": "Macedonia",
+"code": "389"
+},
+{
+"brief": "MG",
+"country": "Madagascar",
+"code": "261"
+},
+{
+"brief": "MW",
+"country": "Malawi",
+"code": "265"
+},
+{
+"brief": "MV",
+"country": "Maldives",
+"code": "960"
+},
+{
+"brief": "ML",
+"country": "Mali",
+"code": "223"
+},
+{
+"brief": "MT",
+"country": "Malta",
+"code": "356"
+},
+{
+"brief": "MQ",
+"country": "Martinique",
+"code": "596"
+},
+{
+"brief": "MR",
+"country": "Mauritania",
+"code": "222"
+},
+{
+"brief": "MU",
+"country": "Mauritius",
+"code": "230"
+},
+{
+"brief": "MX",
+"country": "Mexico",
+"code": "52"
+},
+{
+"brief": "FM",
+"country": "Micronesia",
+"code": "691"
+},
+{
+"brief": "MD",
+"country": "Moldova",
+"code": "373"
+},
+{
+"brief": "MC",
+"country": "Monaco",
+"code": "377"
+},
+{
+"brief": "MN",
+"country": "Mongolia",
+"code": "976"
+},
+{
+"brief": "ME",
+"country": "Montenegro",
+"code": "382"
+},
+{
+"brief": "MS",
+"country": "Montserrat",
+"code": "1664"
+},
+{
+"brief": "MA",
+"country": "Morocco",
+"code": "212"
+},
+{
+"brief": "MZ",
+"country": "Mozambique",
+"code": "258"
+},
+{
+"brief": "MM",
+"country": "Myanmar",
+"code": "95"
+}
+],
+"N": [
+{
+"brief": "NA",
+"country": "Namibia",
+"code": "264"
+},
+{
+"brief": "NP",
+"country": "Nepal",
+"code": "977"
+},
+{
+"brief": "NL",
+"country": "Netherlands",
+"code": "31"
+},
+{
+"brief": "AN",
+"country": "Netherlands Antilles",
+"code": "599"
+},
+{
+"brief": "NC",
+"country": "New Caledonia",
+"code": "687"
+},
+{
+"brief": "NZ",
+"country": "New Zealand",
+"code": "64"
+},
+{
+"brief": "NI",
+"country": "Nicaragua",
+"code": "505"
+},
+{
+"brief": "NE",
+"country": "Niger",
+"code": "227"
+},
+{
+"brief": "NG",
+"country": "Nigeria",
+"code": "234"
+},
+{
+"brief": "KP",
+"country": "North Korea",
+"code": "850"
+},
+{
+"brief": "NO",
+"country": "Norway",
+"code": "47"
+}
+],
+"O": [
+{
+"brief": "OM",
+"country": "Oman",
+"code": "968"
+}
+],
+"P": [
+{
+"brief": "PK",
+"country": "Pakistan",
+"code": "92"
+},
+{
+"brief": "PW",
+"country": "Palau",
+"code": "680"
+},
+{
+"brief": "PS",
+"country": "Palestinian Territory",
+"code": "970"
+},
+{
+"brief": "PA",
+"country": "Panama",
+"code": "507"
+},
+{
+"brief": "PG",
+"country": "Papua New Guinea",
+"code": "675"
+},
+{
+"brief": "PY",
+"country": "Paraguay",
+"code": "595"
+},
+{
+"brief": "PE",
+"country": "Peru",
+"code": "51"
+},
+{
+"brief": "PH",
+"country": "Philippines",
+"code": "63"
+},
+{
+"brief": "PL",
+"country": "Poland",
+"code": "48"
+},
+{
+"brief": "PT",
+"country": "Portugal",
+"code": "351"
+},
+{
+"brief": "PR",
+"country": "Puerto Rico",
+"code": "1787"
+}
+],
+"Q": [
+{
+"brief": "QA",
+"country": "Qatar",
+"code": "974"
+}
+],
+"R": [
+{
+"brief": "CG",
+"country": "Republic Of The Congo",
+"code": "242"
+},
+{
+"brief": "RE",
+"country": null,
+"code": "262"
+},
+{
+"brief": "RO",
+"country": "Romania",
+"code": "40"
+},
+{
+"brief": "RU",
+"country": "Russia",
+"code": "7"
+},
+{
+"brief": "RW",
+"country": "Rwanda",
+"code": "250"
+}
+],
+"S": [
+{
+"brief": "KN",
+"country": "Saint Kitts and Nevis",
+"code": "1869"
+},
+{
+"brief": "LC",
+"country": "Saint Lucia",
+"code": "1758"
+},
+{
+"brief": "PM",
+"country": "Saint Pierre and Miquelon",
+"code": "508"
+},
+{
+"brief": "VC",
+"country": "Saint Vincent and The Grenadines",
+"code": "1784"
+},
+{
+"brief": "WS",
+"country": "Samoa",
+"code": "685"
+},
+{
+"brief": "SM",
+"country": "San Marino",
+"code": "378"
+},
+{
+"brief": "ST",
+"country": "Sao Tome and Principe",
+"code": "239"
+},
+{
+"brief": "SA",
+"country": "Saudi Arabia",
+"code": "966"
+},
+{
+"brief": "SN",
+"country": "Senegal",
+"code": "221"
+},
+{
+"brief": "RS",
+"country": "Serbia",
+"code": "381"
+},
+{
+"brief": "SC",
+"country": "Seychelles",
+"code": "248"
+},
+{
+"brief": "SL",
+"country": "Sierra Leone",
+"code": "232"
+},
+{
+"brief": "SG",
+"country": "Singapore",
+"code": "65"
+},
+{
+"brief": "SK",
+"country": "Slovakia",
+"code": "421"
+},
+{
+"brief": "SI",
+"country": "Slovenia",
+"code": "386"
+},
+{
+"brief": "SB",
+"country": "Solomon Islands",
+"code": "677"
+},
+{
+"brief": "SO",
+"country": "Somalia",
+"code": "252"
+},
+{
+"brief": "ZA",
+"country": "South Africa",
+"code": "27"
+},
+{
+"brief": "KR",
+"country": "South Korea",
+"code": "82"
+},
+{
+"brief": "SS",
+"country": "South Sudan",
+"code": "211"
+},
+{
+"brief": "ES",
+"country": "Spain",
+"code": "34"
+},
+{
+"brief": "LK",
+"country": "Sri Lanka",
+"code": "94"
+},
+{
+"brief": "SD",
+"country": "Sudan",
+"code": "249"
+},
+{
+"brief": "SR",
+"country": "Suriname",
+"code": "597"
+},
+{
+"brief": "SZ",
+"country": "Swaziland",
+"code": "268"
+},
+{
+"brief": "SE",
+"country": "Sweden",
+"code": "46"
+},
+{
+"brief": "CH",
+"country": "Switzerland",
+"code": "41"
+},
+{
+"brief": "SY",
+"country": "Syria",
+"code": "963"
+}
+],
+"T": [
+{
+"brief": "TJ",
+"country": "Tajikistan",
+"code": "992"
+},
+{
+"brief": "TZ",
+"country": "Tanzania",
+"code": "255"
+},
+{
+"brief": "TH",
+"country": "Thailand",
+"code": "66"
+},
+{
+"brief": "TG",
+"country": "Togo",
+"code": "228"
+},
+{
+"brief": "TO",
+"country": "Tonga",
+"code": "676"
+},
+{
+"brief": "TT",
+"country": "Trinidad and Tobago",
+"code": "1868"
+},
+{
+"brief": "TN",
+"country": "Tunisia",
+"code": "216"
+},
+{
+"brief": "TR",
+"country": "Turkey",
+"code": "90"
+},
+{
+"brief": "TM",
+"country": "Turkmenistan",
+"code": "993"
+},
+{
+"brief": "TC",
+"country": "Turks and Caicos Islands",
+"code": "1649"
+}
+],
+"U": [
+{
+"brief": "UG",
+"country": "Uganda",
+"code": "256"
+},
+{
+"brief": "UA",
+"country": "Ukraine",
+"code": "380"
+},
+{
+"brief": "AE",
+"country": "United Arab Emirates",
+"code": "971"
+},
+{
+"brief": "GB",
+"country": "United Kingdom",
+"code": "44"
+},
+{
+"brief": "US",
+"country": "United States",
+"code": "1"
+},
+{
+"brief": "UY",
+"country": "Uruguay",
+"code": "598"
+},
+{
+"brief": "UZ",
+"country": "Uzbekistan",
+"code": "998"
+}
+],
+"V": [
+{
+"brief": "VU",
+"country": "Vanuatu",
+"code": "678"
+},
+{
+"brief": "VE",
+"country": "Venezuela",
+"code": "58"
+},
+{
+"brief": "VN",
+"country": "Vietnam",
+"code": "84"
+},
+{
+"brief": "VG",
+"country": "Virgin Islands, British",
+"code": "1340"
+},
+{
+"brief": "VI",
+"country": "Virgin Islands, US",
+"code": "1284"
+}
+],
+"Y": [
+{
+"brief": "YE",
+"country": "Yemen",
+"code": "967"
+}
+],
+"Z": [
+{
+"brief": "ZM",
+"country": "Zambia",
+"code": "260"
+},
+{
+"brief": "ZW",
+"country": "Zimbabwe",
+"code": "263"
+}
+]
+}

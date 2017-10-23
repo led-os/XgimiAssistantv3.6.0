@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <Button
+        android:id="@+id/dialog_avatar_camera"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bottomdialog_top_selector"
+        android:text="拍照"
+        android:textColor="@color/color_bule"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:src="@color/titlespace" />
+
+    <Button
+        android:id="@+id/dialog_avatar_photo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bottomdialog_low_selector"
+        android:text="从相册选择"
+        android:textColor="@color/color_bule"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/dialog_avatar_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bottomdialog_cancel_selector"
+        android:text="取消"
+        android:textColor="@color/color_bule"
+        android:textSize="20sp" />
+
+</LinearLayout>

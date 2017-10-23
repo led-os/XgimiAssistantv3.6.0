@@ -1,0 +1,126 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    productFlavors {
+    	Qihu_360 {}
+    	Alibaba {}
+    	Meizu {}
+    	Yingyongbao {}
+		Xiaomi {}
+    	Xgimi {}
+        productFlavors.all { flavor ->
+            flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+        }
+    }
+    lintOptions {
+        abortOnError false
+        checkReleaseBuilds false
+        // 防止在发布的时候出现因MissingTranslation导致Build Failed!
+        disable 'MissingTranslation'
+
+    }
+
+    defaultConfig {
+        applicationId "com.xgimi.zhushou"
+        minSdkVersion 15
+        targetSdkVersion 22
+        versionCode 30037
+        versionName "3.6.0"
+        multiDexEnabled true
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    signingConfigs {
+        config {
+            keyAlias 'uconsole'
+            keyPassword 'gimi123;'
+            storeFile file('D:/workSpace/KeyStore/gimi.keystore')
+            storePassword 'gimi123;'
+        }
+    }
+    buildTypes {
+        release {
+            buildConfigField "boolean", "ENABLE_DEBUG", "false"
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+        debug {
+//            buildConfigField "boolean", "ENABLE_DEBUG", "true"
+            signingConfig signingConfigs.config
+        }
+
+    }
+    android.applicationVariants.all {
+        variant ->
+            variant.outputs.each {
+                output -> output.outputFile = new File(output.outputFile.parent, "XgimiAssistant_" + buildType.name + "_v" + defaultConfig.versionName + "_${defaultConfig.versionCode}" + ".apk");
+            }
+    }
+
+    useLibrary 'org.apache.http.legacy'
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+            assets.srcDirs = ['assets']
+        }
+    }
+    //引用aar
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile project(':library')
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:cardview-v7:23.1.1'
+    compile 'com.android.support:recyclerview-v7:23.1.1'
+    compile 'com.squareup.retrofit2:retrofit:2.0.0-beta3'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.1.2'
+    compile 'com.squareup.okhttp3:logging-interceptor:latest.release'
+    compile 'io.reactivex:rxandroid:1.0.1'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.0-beta4'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.0-beta4'
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile 'com.github.bumptech.glide:glide:3.6.1'
+    compile 'com.android.support:design:23.1.1'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.android.support:support-v4:23.1.1'
+    compile project(':PulltorefreshDemo')
+    compile project(':InitActivity')
+    compile project(':gmsdk')
+    compile project(':social_sdk_library_project')
+    compile files('libs/umeng-feedback-v4.3.jar')
+    compile files('libs/VirtualDisplay.jar')
+    compile files('libs/VoiceRecognition.jar')
+    compile files('libs/umeng-update-v2.6.0.1.jar')
+    compile files('libs/xmdnssd.jar')
+    compile project(path: ':sample')
+    compile files('libs/android-async-http-1.4.6.jar')
+    compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.3'
+    compile files('libs/eventbus.jar')
+    compile files('libs/TalkingDataAnalytics.jar')
+    compile files('libs/universal-image-loader-1.9.3.jar')
+    compile project(':sample')
+    compile 'com.umeng.analytics:analytics:latest.integration'
+    compile files('libs/pinyin4j-2.5.0.jar')
+    compile project(':PushSDK')
+    compile files('libs/core-3.0.0.jar')
+    compile (name:'musicsdk-3.2.5',ext:'aar')
+//    compile files('libs/baidu-music-sdk-v3.2.3.jar')
+    compile files('libs/jsoup-1.10.3.jar')
+//    compile 'com.github.jokermonn:permissions4m:2.0.0-lib'
+//    annotationProcessor 'com.github.jokermonn:permissions4m:2.0.0-processor'
+}

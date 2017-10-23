@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xgimi.zhushou.activity.AllNumberActivity">
+        <include
+            layout="@layout/xgimi_title"
+            android:layout_height="44dp"
+            android:layout_width="match_parent"
+            android:id="@+id/title"></include>
+    <GridView
+        android:layout_below="@+id/title"
+        android:layout_width="match_parent"
+        android:id="@+id/gridview"
+        android:numColumns="5"
+        android:layout_height="wrap_content"></GridView>
+</RelativeLayout>

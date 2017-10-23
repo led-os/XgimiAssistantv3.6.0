@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/sandidrawale">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/sandidrawale">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#4392f3"
+                android:layout_gravity="start|center_vertical"
+                android:text="@string/text_common_tips"
+                android:textSize="18sp"
+                android:layout_margin="5dp"/>
+
+            <!--<ImageView-->
+                <!--android:id="@+id/iv_cancle_mirror_play_comfir_dialog"-->
+                <!--android:layout_width="40dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:scaleType="centerInside"-->
+                <!--android:layout_gravity="end|center_vertical"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:src="@drawable/cancell" />-->
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#5E5E5E"
+            android:layout_margin="5dp"
+            android:text="@string/text_quit_mirror_play_comfir"/>
+        <Button
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/sandiselector"
+            android:id="@+id/btn_i_know_quit_mirror_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textColor="#5E5E5E"
+            android:layout_gravity="center_horizontal"
+            android:text="我知道了，不再提示" />
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp">-->
+            <!--<Button-->
+                <!--android:id="@+id/btn_cancle_mirror_comfir_dialog"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_height="36dp"-->
+                <!--android:layout_marginLeft="30dp"-->
+                <!--android:layout_marginRight="20dp"-->
+                <!--android:text="@string/text_cancle"-->
+                <!--android:textSize="16sp"-->
+                <!--android:background="@drawable/bg_photo_wall_btn"/>-->
+            <!--<Button-->
+                <!--android:id="@+id/btn_enter_mirror_comfir_dialog"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_height="36dp"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:layout_marginRight="30dp"-->
+                <!--android:text="@string/text_quit"-->
+                <!--android:textSize="16sp"-->
+                <!--android:background="@drawable/bg_photo_wall_btn"/>-->
+        <!--</LinearLayout>-->
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,296 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f7"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/local_yingyong_title"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        layout="@layout/xgimi_title" />
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/saomiaoshibai"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/local_yingyong_title"
+        android:background="#f5f5f7" >
+
+        <RelativeLayout
+            android:id="@+id/rl_one"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#4392f3" >
+
+            <ImageView
+                android:id="@+id/iv_wifi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/wifi_search" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_wifi"
+                android:layout_centerHorizontal="true"
+                android:text="请检查设备与手机是否在相同网络"
+                android:textColor="#ffffff"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+          android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_one"
+            android:background="#ffffff"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+            <TextView
+                  android:id="@+id/musc_device"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="当前搜索到0个设备"
+                android:textColor="#4392f3"
+                android:textSize="16sp" />
+       <View 
+           android:id="@+id/xian"
+           android:layout_marginTop="10dp"
+           android:layout_below="@+id/musc_device"
+           android:layout_height="0.5dp"
+           android:layout_width="match_parent"
+           android:background="#19000000"/>
+
+        <LinearLayout
+            android:id="@+id/ll_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/xian"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/chongxinshaomiao"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/movie_xuanji"
+                    android:text="重新扫描" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/shoudonglianjie"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/movie_xuanji"
+                    android:text="手动连接" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tisi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_one"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="提示:"
+            android:textColor="#5E5E5E"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tisi"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="1.无屏助手目前仅支持极米无屏电视"
+            android:textColor="#919191"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/one"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="10dp"
+            android:text="2.请确保极米无屏电视和手机处在相同网络"
+            android:textColor="#919191"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/two"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="10dp"
+            android:text="2.必要时请尝试断电重启极米无屏电视"
+            android:textColor="#919191"
+            android:textSize="14sp" />
+    </RelativeLayout>
+ </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/saomiaozhong"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/local_yingyong_title"
+      >
+
+        <RelativeLayout
+            android:id="@+id/rl_search"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#4392f3" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="200dp" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="30dp"
+                        android:src="@drawable/wifi" />
+
+                    <TextView
+                        android:id="@+id/tv_wifi_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="当前网络: XGIMIG5G"
+                        android:textColor="#ffffff"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/tv_saomiaozhong"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="正在扫描新设备..."
+                        android:textColor="#ffffff"
+                        android:textSize="12sp" />
+                </LinearLayout>
+<RelativeLayout 
+    android:layout_height="wrap_content"
+     android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+    android:layout_width="wrap_content"
+     android:layout_alignParentRight="true"
+    >
+                <ImageView
+                    android:id="@+id/iv_leida1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                   
+                    android:src="@drawable/search_di" />
+
+                <ImageView
+                    android:id="@+id/iv_leida"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/search_xuanzhuan" />
+                <TextView 
+                    android:id="@+id/jindu"
+                    android:textSize="15sp"
+                    android:textColor="#ffffff"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="1%"/>
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/rl_search"
+            android:layout_marginTop="11dp"
+            android:background="#ffffff" >
+<RelativeLayout 
+    android:layout_marginTop="5dp"
+    android:id="@+id/rl_two"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/device_musce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="6dp"
+                android:text="当前搜索到0个设备"
+                android:textColor="#4392f3"
+                android:textSize="16sp" />
+             <ImageView
+                 android:id="@+id/iv_shoudong"
+                 android:layout_toLeftOf="@+id/shuaxin"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:scaleType="centerInside"
+                android:src="@drawable/iv_shoudong" />
+            <ImageView
+                   android:layout_alignParentRight="true"
+                android:id="@+id/shuaxin"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:scaleType="centerInside"
+                android:src="@drawable/chongxin_search" />
+            
+</RelativeLayout>
+<View 
+    android:layout_marginLeft="10dp"
+    android:id="@+id/view_xian"
+    android:layout_marginTop="5dp"
+      android:layout_below="@+id/rl_two"
+    android:layout_height="0.5dp"
+    android:layout_width="match_parent"
+    android:background="#19000000"/>
+            <ListView
+                android:layout_marginLeft="10dp"
+                android:id="@+id/mylistview"
+                android:dividerHeight="0.5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/view_xian"
+                 >
+            </ListView>
+        </RelativeLayout>
+    </RelativeLayout>
+   
+
+</RelativeLayout>

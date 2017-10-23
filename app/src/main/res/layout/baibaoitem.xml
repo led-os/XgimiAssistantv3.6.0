@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <View
+        android:layout_gravity="right"
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:background="#EDEEEF" >
+    </View>
+    <View
+        android:layout_gravity="bottom"
+
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#EDEEEF" >
+    </View>
+    <LinearLayout 
+        android:paddingBottom="10dp"
+         android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+    <ImageView
+       
+        android:id="@+id/iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tiaojiao" />
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="调焦"
+        android:textColor="#5E5E5E"
+        android:textSize="11sp" />
+    </LinearLayout>
+    
+    
+</FrameLayout>

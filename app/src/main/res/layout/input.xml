@@ -1,0 +1,141 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#ffffff" >
+
+        <TextView
+            android:id="@+id/tv"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="手动输入ip"
+            android:textColor="#4392f3"
+            android:textSize="17sp" />
+        <LinearLayout
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <EditText
+                    android:layout_marginLeft="5dp"
+                      android:inputType="number"
+                    android:id="@+id/one"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edittextbackground"
+                    android:gravity="center"
+                    android:text="192"
+                    android:textColor="#000000" />
+                <View 
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="60dp"
+                    android:layout_height="2dp"
+                    android:background="#000000"
+                    android:layout_width="2dp"
+                   />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <EditText
+                      android:inputType="number"
+                    android:id="@+id/two"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edittextbackground"
+                    android:gravity="center"
+                    android:text="168"
+                    android:textColor="#000000" />
+                     <View 
+                   android:layout_gravity="bottom"
+                    android:layout_marginLeft="55dp"
+                    android:layout_height="2dp"
+                    android:background="#000000"
+                    android:layout_width="2dp"
+                   />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <EditText
+                      android:inputType="number"
+                    android:id="@+id/three"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edittextbackground"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="#000000" />
+                     <View 
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="55dp"
+                    android:layout_height="2dp"
+                    android:background="#000000"
+                    android:layout_width="2dp"
+                   />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <EditText
+                    android:layout_marginLeft="5dp"
+                    android:inputType="number"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:id="@+id/four"
+                    android:layout_width="50dp"
+                    android:gravity="center"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edittextbackground"
+                    android:textColor="#000000" >
+                    
+                    </EditText>
+            </FrameLayout>
+        </LinearLayout>
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/denglu"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/ll"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/logo"
+            android:text="连接"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

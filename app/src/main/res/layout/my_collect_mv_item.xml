@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/beijingse">
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/iv"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="10dp"
+            android:layout_width="150dp"
+            android:layout_height="100dp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/iv"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_alignTop="@+id/iv"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/mv_title"
+                android:singleLine="true"
+                android:layout_marginRight="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/item_title"
+                />
+            <TextView
+                android:id="@+id/mv_artist"
+                android:singleLine="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/ADADAD"
+                />
+            <TextView
+                android:id="@+id/add_time"
+                android:singleLine="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/ADADAD"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

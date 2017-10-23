@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <RelativeLayout
+        android:background="@drawable/bottomdialog_top_selector"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="13sp"
+            android:textColor="@color/B3B3B3"
+            android:text="选择要传输文件的类型"/>
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:src="@color/titlespace" />
+    <Button
+        android:id="@+id/dialog_tupian"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/mybottomdialog_low_selector"
+        android:text="图片"
+        android:textColor="@color/color_bule"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:src="@color/titlespace" />
+
+    <Button
+        android:id="@+id/dialog_vidoe"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/mybottomdialog_low_selector"
+        android:text="视频"
+        android:textColor="@color/color_bule"
+        android:textSize="20sp" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:src="@color/titlespace" />
+    <Button
+        android:id="@+id/dialog_music"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/mybottomdialog_low_selector"
+        android:text="音乐"
+        android:textColor="@color/color_bule"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:src="@color/titlespace" />
+    <Button
+        android:id="@+id/dialog_file"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bottomdialog_low_selector"
+        android:text="文件"
+        android:textColor="@color/color_bule"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:src="@color/titlespace" />
+
+    <Button
+        android:id="@+id/dialog_avatar_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bottomdialog_cancel_selector"
+        android:text="取消"
+        android:textColor="@color/color_bule"
+        android:textSize="20sp" />
+
+</LinearLayout>

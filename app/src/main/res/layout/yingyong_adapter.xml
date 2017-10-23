@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:paddingBottom="7dp">
+
+        <com.xgimi.zhushou.widget.CircleImageView
+            android:id="@+id/iv_tubiao"
+            android:layout_width="@dimen/apply_youxi_wight"
+            android:layout_height="@dimen/apply_youxi_wight" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_tubiao"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:singleLine="true"
+            android:text="极米助手"
+            android:textColor="#5E5E5E"
+            android:textSize="13sp" />
+    </RelativeLayout>
+</LinearLayout>

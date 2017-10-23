@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f7" >
+
+    <include
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        layout="@layout/xgimi_title" />
+
+    <RelativeLayout
+        android:id="@+id/rl_yonghuming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:paddingRight="10dp" >
+
+        <Button
+            android:id="@+id/quyu"
+            style="@style/UserEditText_FontSize"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/EditText_item_height"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp"
+            android:text="+86"
+            android:textColor="@color/item_title"/>
+
+        <View
+            android:layout_marginLeft="5dp"
+            android:id="@+id/view_xian"
+            android:layout_width="1dp"
+            android:layout_height="@dimen/EditText_item_height"
+            android:layout_toRightOf="@id/quyu"
+            android:background="#19000000" />
+
+        <EditText
+            android:id="@+id/name"
+            style="@style/UserEditText_FontSize"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/EditText_item_height"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/view_xian"
+            android:hint="请输入手机号"
+            android:maxLength="15"
+            android:textSize="15sp"
+            android:textColor="@color/item_title"/>
+    </RelativeLayout>
+
+   
+
+    <Button
+        android:id="@+id/zhuce"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/rl_yonghuming"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/weixuanzhonglogo"
+        android:text="获取验证码"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+</RelativeLayout>

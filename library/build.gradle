@@ -1,0 +1,48 @@
+apply plugin: 'com.android.library'
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'sectionedrecyclerview'
+
+    publishedGroupId = 'com.truizlop.sectionedrecyclerview'
+    libraryName = 'SectionedRecyclerView'
+    artifact = 'library'
+
+    libraryDescription = 'An adapter to create Android RecyclerViews with sections, providing headers and footers'
+
+    siteUrl = 'https://github.com/truizlop/SectionedRecyclerView'
+    gitUrl = 'https://github.com/truizlop/SectionedRecyclerView.git'
+
+    libraryVersion = '1.2.0'
+
+    developerId = 'truizlop'
+    developerName = 'Tomás Ruiz-López'
+    developerEmail = 'trl.ironside@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 22
+        versionCode 3
+        versionName "1.2"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:recyclerview-v7:22.2.0'
+}
+

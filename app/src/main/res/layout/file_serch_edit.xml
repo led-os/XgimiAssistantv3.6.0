@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.xgimi.zhushou.widget.MyEditText
+
+        android:id="@+id/search"
+        android:layout_gravity="center_vertical"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="text"
+        android:paddingLeft="5dp"
+        android:drawableLeft="@drawable/search"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/item_title"
+        android:textSize="15sp"
+        android:textColorHint="@color/zitiyanse"
+
+        android:layout_marginLeft="10dp"
+        android:drawablePadding="5dp"
+        android:layout_marginRight="10dp"
+        android:focusableInTouchMode="true"
+        android:hint="搜索影视"
+        ></com.xgimi.zhushou.widget.MyEditText>
+</LinearLayout>
